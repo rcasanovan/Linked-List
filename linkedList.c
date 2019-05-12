@@ -135,6 +135,9 @@ int main() {
     else {
         printf("the list is empty\n");
     }
+
+    root = removeElement(9, root);
+    print(root);
     
     return EXIT_SUCCESS;
 }
